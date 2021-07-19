@@ -355,14 +355,23 @@ border: 1px solid #022b69;
     padding: .5rem .5rem;
 }
 
+.footer-tab li a{color:#ffffff;}
+.ft{text-align: center;}
+.ft{padding: 5px 0px;}
+.footer{padding: 20px 0px;}
+.footer-tab{list-style:none;margin:0px;padding: 0px;}
+.footer-tab li{display:inline-block;padding: 0px 2px;}
 
-
+.footer-row{background-color:#181c27;color:#ffffff;}
+.footer-logo{margin: 0px;font-weight: bolder;font-size: 30px;margin: 0px;}
+.footer-logo a{color:#ffffff;text-decoration:none;}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
 
 @media only screen and (min-width: 600px) {
 
+.ft{padding: 0px 0px;}
 .navbar-nav-chefCorner li{
   padding: 0px 0.5rem;
 }
@@ -401,10 +410,10 @@ border: 1px solid #022b69;
 
 
 
-
 @media only screen and (min-width: 900px) {
-
- .custom-dropdown{background-color: #022b69; color: #ffffff;margin: 0px 1px;width: 100%;}
+  .ft p{text-align: right;}
+  .ft {text-align: left;}
+  .custom-dropdown{background-color: #022b69; color: #ffffff;margin: 0px 1px;width: 100%;}
 
  .dropdown-content {
   display: none;
