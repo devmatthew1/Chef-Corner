@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="my_css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Chef-Corner</title>
+</head>
+
+<body>
+    <!--Header 1-->
+    <nav class="navbar navbar-dark bg-dark">
+
+        <div class="navbar-brand">
+            <h1>Chef Corner</h1>
+        </div>
+        <div class="navbar-nav d-inline">
+            <a class="nav-item nav-link d-inline p-2" href="#">Pricing</a>
+            <a class="nav-item nav-link d-inline p-2" href="#">Blog</a>
+            <a class="nav-item nav-link d-inline p-2" href="#">Username <i class="pl-1 fas fa-user-circle"></i></a>
+        </div>
+    </nav>
+    <div class="row border-bottom border-dark m-2 justify-content-center">
+        <ul class="nav py-4">
+            <li class="nav-item pr-5">
+                <button type="button" class="btn btn-dark btn-sm border-dark"><a class="nav-link"
+                        href="#">Menu</a></button>
+            </li>
+            <li class="nav-item pr-5">
+                <button type="button" class="btn btn-light btn-sm border-dark"><a class="nav-link"
+                        href="#">Orders</a></button>
+            </li>
+            <li class="nav-item pr-5">
+                <button type="button" class="btn btn-light btn-sm border-dark"><a class="nav-link"
+                        href="#">Recipes</a></button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-fluid">
+        <div class="col-8 mx-auto my-5 bg-secondary">
+            <div class="col-8 m-auto py-3">
+                <form action="#">
+                    <div class="form-group mb-4">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="desc">Description</label>
+                        <textarea class="form-control" name="desc" id="desc" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="items">Item Category</label>
+                        <select class="form-control" name="items" id="items">
+                            <option value="drinks">Drinks</option>
+                            <option value="meals">Meals</option>
+                        </select>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="uploadProduct">cover</label>
+                        <input class="form-control p-5" type="file" name="uploadProduct" id="uploadProduct">
+
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="time">Time</label>
+                        <input class="form-control col-3" type="time" name="time" id="time">
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="Quantity">Quantity</label>
+                        <input class="form-control col-3" type="number" name="Quantity" id="Quantity">
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="Price">Price</label>
+                        <input class="form-control" type="number" name="Price" id="Price">
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="mb-4 btn col-7 btn-info">Add to menu</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="row footer-row">
+            <div class="container">
+                <div class="row footer">
+                    <div class="col-md-2 ft footer-logo">
+                        <a href="">ChefCo</a>
+                    </div>
+                    <div class="col-md-5 m-auto ft">
+                        <ul class="footer-tab">
+                            <li><a href="">Help</a> </li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Price</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 m-auto ft">
+                        <p class="m-0 p-0">© 1999–2020 All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
