@@ -7,8 +7,24 @@
 
 .custom-toggler.navbar-toggler : focus{border:none;}
 
+.logo-sample{
+    color: brown;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.ChefCorner-ss{
+  padding:10px;
+}
+
+.ChefCorner-ss a img{
+  width:20px;height:20px;
+}
+
 .chef-search{
-  border: 1px solid #022b69;
+    border: 1px solid #022b69;
 }
 
 .chef-search:focus {
@@ -32,19 +48,12 @@
 .dropdown-list a:hover{
 background-color: #e9ecef;
 }
-.dropdown-content::-webkit-scrollbar-thumb{
-  background-color: #5b45e0;
-}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 
-.dropdown-content::-webkit-scrollbar{
-  width:8px;
-  background-color: #F5F5F5;
-}
 .custom-dropdown{background-color: #5b45e0; color: #ffffff;margin: 0px 1px;}
 .dropdown-content {
   display: none;
@@ -54,10 +63,8 @@ background-color: #e9ecef;
   background-color: #ffffff;
   border-radius: 10px;
   min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  height: 200px;
-  overflow-y: scroll;
+  height: 150px;
 }
 
 .dropdown-content::-webkit-scrollbar-track{
@@ -138,7 +145,9 @@ border: 1px solid #022b69;
    
 }
 
-
+.custom-dropdown:hover{background-color: #5b45e0; color: #ffffff;margin: 0px 1px;}
+.custom-btn:hover{background-color: #ffffff; color: #5b45e0;border-color: #022b69;border-width: 2px;}
+.custom-btn, .custom-dropdown{background-color: #022b69; color: #ffffff;margin: 0px 1px;}
 
 .btn-more:hover{
     background-color: #ffffff;
@@ -197,8 +206,44 @@ border: 1px solid #022b69;
 
 .navbar-custom {
 
-    color:#229922;
     border-radius:0;
+}
+
+.navbar-custom-2{
+    background-color: #ffffff;
+    border-radius:0;
+}
+
+.chefCo-container{
+  text-decoration:none;
+}
+
+.chefco-tab{
+border-radius: 5px;
+padding: 0px 1px;
+box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+} 
+
+.chefco-tab:hover{
+  background-color: whitesmoke;
+  color: #ffffff;
+}
+
+.chefco-tab a:focus{
+  background-color: #022b69;
+  color: #ffffff;
+  display: block;
+}
+
+.chefco-tab a{
+  color: #022b69;
+}
+
+.chefCo-container{margin-top: 82px}
+
+.joint-tab{
+  padding: 30px;
+  border-bottom:2px solid #000000;
 }
 
 
@@ -400,10 +445,8 @@ border: 1px solid #022b69;
   background-color: #ffffff;
   border-radius: 10px;
   min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  height: 200px;
-  overflow-y: scroll;
+  height: 150px;
 }
 .navbar{padding: .5rem .1rem;}
 }
@@ -418,15 +461,14 @@ border: 1px solid #022b69;
  .dropdown-content {
   display: none;
   position: absolute;
- 
+  left: -2px;
   top: 38px;
   background-color: #ffffff;
   border-radius: 10px;
   min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  height: 200px;
-  overflow-y: scroll;
+  height: 150px;
+ 
 }
 
 .logo{
@@ -450,10 +492,9 @@ border: 1px solid #022b69;
   background-color: #ffffff;
   border-radius: 10px;
   min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  height: 200px;
-  overflow-y: scroll;
+  height: 150px;
+  
 }
 
 
@@ -485,10 +526,9 @@ border: 1px solid #022b69;
   background-color: #ffffff;
   border-radius: 10px;
   min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  height: 200px;
-  overflow-y: scroll;
+  height: 150px;
+ 
 }
 
 }
