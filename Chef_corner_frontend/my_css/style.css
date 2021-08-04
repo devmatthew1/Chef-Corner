@@ -14,22 +14,32 @@
 .chef-item-h5{
   font-weight:bold;margin:5px 0px;
 } 
-.chef-item-h6{
+.chef-item-h6, .modal-item-h5{
   margin:5px 0px;font-weight:normal;
 }
 
 
 .modal-item-h2{
   font-weight:bold;
+  font-size: 16px;
 }
+
+.modal-item-total{
+  font-weight:bold;
+  font-size: 14px;
+}
+
+.customer-address{
+  font-weight:bold;
+  font-size: 18px;
+}
+
 
 .modal-item-h6{
   margin:5px 0px;font-weight:lighter;
+  font-size: 14px;
 } 
                                      
-.modal-item-h5{
-  margin:5px 0px;font-weight:normal;
-}
                                            
 .modal-item-btn{
   padding: 3px 10%;margin-top:3px;
