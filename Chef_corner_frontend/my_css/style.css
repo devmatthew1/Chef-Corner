@@ -7,6 +7,66 @@
 
 .custom-toggler.navbar-toggler : focus{border:none;}
 
+.chef-item-img{
+  max-height:250px;height:auto;width: 100%;min-width:270px;
+  } 
+
+.chef-item-h5{
+  font-weight:bold;margin:5px 0px;
+} 
+.chef-item-h6{
+  margin:5px 0px;font-weight:normal;
+}
+
+
+.modal-item-h2{
+  font-weight:bold;
+}
+
+.modal-item-h6{
+  margin:5px 0px;font-weight:lighter;
+} 
+                                     
+.modal-item-h5{
+  margin:5px 0px;font-weight:normal;
+}
+                                           
+.modal-item-btn{
+  padding: 3px 10%;margin-top:3px;
+}                                     
+
+.headings-col-2{
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.2);
+}
+
+.chef-product img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.chef-product{
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0px 10px 40px 10px;
+  overflow: hidden;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+.modal-img img {
+    max-height: 300px;
+    height: auto;
+    width: 100%;
+    min-width: 180px;
+}
+
+.text-cover{
+  height: 70vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .logo-sample{
     color: brown;
     font-family: cursive;
@@ -35,14 +95,14 @@
     box-shadow: 0 0 0 0.2rem rgb(2 43 105 / 7%);
 }
 
-.dropdown-list a {
+.dropdown-list {
   display: block;
   text-decoration: none;
-  padding: 10px 0px;
+  padding: 10px 5px;
   font-weight: lighter;
   font-size: 14px;
-  color: #000000;
-
+  color: #022b69;
+  text-align: left;
 }
 
 .dropdown-list a:hover{
@@ -58,9 +118,10 @@ background-color: #e9ecef;
 .dropdown-content {
   display: none;
   position: absolute;
- 
+  background-color: #eeeef6;
+  border: 1px solid #022b69; 
   top: 38px;
-  background-color: #ffffff;
+  
   border-radius: 10px;
   min-width: 200px;
   z-index: 1;
@@ -74,15 +135,15 @@ background-color: #e9ecef;
 .dropdown {
   position: ;
 }
-.custom-dropdown:hover{background-color: #022b69; color: #ffffff;margin: 0px 1px;}
+.custom-dropdown:hover{color: #ffffff;margin: 0px 1px;}
  .custom-dropdown{background-color: #022b69; color: #ffffff;margin: 0px 1px;}
 .custom-toggler:focus{
 border: 1px solid #022b69;
 }
 
 .masthead {
-  height: 100vh;
-  min-height: 500px;
+
+  height: 80vh;
   background-image: url('../images/chef.jpg');  
   background-size: 100% 100%;
   background-position: inherit;
@@ -145,7 +206,7 @@ border: 1px solid #022b69;
    
 }
 
-.custom-dropdown:hover{background-color: #5b45e0; color: #ffffff;margin: 0px 1px;}
+
 .custom-btn:hover{background-color: #ffffff; color: #5b45e0;border-color: #022b69;border-width: 2px;}
 .custom-btn, .custom-dropdown{background-color: #022b69; color: #ffffff;margin: 0px 1px;}
 
