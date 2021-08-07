@@ -5,6 +5,9 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(24 43 105)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.fas {
+  font-size: 18px;
+}
 .custom-toggler.navbar-toggler : focus{border:none;}
 
 .chef-item-img{
@@ -217,7 +220,7 @@ border: 1px solid #022b69;
 }
 
 
-.custom-btn:hover{background-color: #ffffff; color: #5b45e0;border-color: #022b69;border-width: 2px;}
+.custom-btn:hover{background-color: #ffffff; color: #5b45e0;border-color: #022b69;border-width: 2px; font-weight: bold;}
 .custom-btn, .custom-dropdown{background-color: #022b69; color: #ffffff;margin: 0px 1px;}
 
 .btn-more:hover{
