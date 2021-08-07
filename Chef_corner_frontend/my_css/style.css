@@ -428,6 +428,11 @@ box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
   padding-left: .5rem;
 }
 
+.logo:hover{
+  text-decoration: none;
+}
+
+
 
 .chefCorner-nav-item {padding: 0px 10px;}
 .chefCorner-nav-atag:focus{
@@ -583,7 +588,7 @@ box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
 }
 
 
-}
+
 
 @media only screen and (min-width: 1000px) {
 

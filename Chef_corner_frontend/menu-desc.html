@@ -17,39 +17,25 @@
     <!--Header 1-->
     <nav class="navbar navbar-expand-lg navbar-custom-2 fixed-top">
         <div class="container" style="padding-left:0px;padding-right:0px;flex-wrap:nowrap;">
-            <a class="navbar-brand logo" href="#">ChefCorner</a>
+            <div class="navbar-brand">
+                <a class="logo" href="#">ChefCorner</a>
+            </div>
 
-            <section class="sidedraw" id="sidedraw-name" data-sidedraw-target>
-                <div class="sidedraw-overlay" data-sidedraw-close tabindex="-1"></div>
-                <div class="sidedraw-wrapper">
-                    <div class="sidedraw-header">
-                        <div class="sidedraw-title">
-                            ChefCorner
-                        </div>
-                        <button class="sidedraw-close" data-sidedraw-close aria-label="Close sidedraw"></button>
-                    </div>
-                    <div class="sidedraw-tabs">
-                        <a class="sidedraw-nav-link chefCorner-sidedraw-join" href="#">Join for free<span
-                                class="sr-only">(current)</span></a>
-                        <a class="sidedraw-nav-link chefCorner-sidedraw-login" href="#">Login</a>
-                    </div>
-                </div>
-            </section>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-sidedraw-trigger
-                aria-controls="sidedraw-name" aria-expanded="false">
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto topnav">
-                    <li class="nav-item chefCorner-nav-item ">
+                    <li class="nav-item chefCorner-nav-item">
                         <a class="nav-link chefCorner-nav-atag" href="#">Pricing</a>
                     </li>
-                    <li class="nav-item chefCorner-nav-item ">
+                    <li class="nav-item chefCorner-nav-item">
                         <a class="nav-link chefCorner-nav-atag" href="#">Blog</a>
                     </li>
-                    <li class="nav-item chefCorner-nav-item ">
-                        <a class="nav-link chefCorner-nav-atag" href="#">Username <i class="pl-1 fas fa-user-circle"></i></a>
+                    <li class="nav-item chefCorner-nav-item">
+                        <a class="nav-link chefCorner-nav-atag" href="#">Username <i
+                                class="pl-1 fas fa-user-circle"></i></a>
                     </li>
                 </ul>
             </div>
@@ -120,7 +106,7 @@
                         </div>
 
                         <div class="text-center">
-                            <button type="submit" class="mb-4 btn col-7 btn-info">Add to menu</button>
+                            <button type="submit" class="mb-4 btn col-7 custom-btn">Add to menu</button>
                         </div>
                     </form>
 
