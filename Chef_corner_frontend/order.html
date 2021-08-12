@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="my_css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <title>Chef-Corner</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="boonay launches humanitarian activities, most especially promoting educational activities">
+    <meta name="keywords" content="humanitarian, scholarship, educational, learning, meritocratic scholarship">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="my_css/style.css">
+    <title>ChefCorner</title>
+    
+  </head>
 
 <body>
   <!--Header 1-->
@@ -23,7 +27,7 @@
       <div class="mt-2">
         <ul class="navbar-nav ml-auto topnav">
           <li class="nav-item chefCorner-nav-item ">
-            <a class="nav-link chefCorner-nav-atag" href="#">Username <i class="pl-1 fas fa-user-circle"></i></a>
+            <a class="nav-link chefCorner-nav-atag" href="#">Username <i class="pl-1 fa fa-user-circle"></i></a>
           </li>
         </ul>
       </div>
@@ -55,7 +59,7 @@
     </div>
 
     <div class="container">
-      <div class="navbar my-5">
+      <div class="navbar my-3">
         <h1>Resturant Menu</h1>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
@@ -65,10 +69,13 @@
     </div>
     <div class="row m-5 px-5">
       <div class="col-md-4 col-sm-12 my-3">
-        <img class="img-fluid" src="images/cake.png" alt="cake">
+        <div class="text-center">
+          <img class="img-fluid" src="images/cake.png" alt="cake">
+        </div>
+        
         <div class="d-block m-2">
           <div class="d-flex">
-            <span><i class="fas fa-clock-o p-2"></i></span>
+            <span><i class="fa fa-clock-o p-2"></i></span>
             <p class="p-1 ml-1">10 mins</p>
           </div>
           <p>OrderByClientUsername</p>
@@ -82,10 +89,12 @@
       </div>
 
       <div class="col-md-4 col-sm-12 my-3">
-        <img class="img-fluid" src="images/cake.png" alt="cake">
+        <div class="text-center">
+          <img class="img-fluid" src="images/cake.png" alt="cake">
+        </div>
         <div class="d-block m-2">
           <div class="d-flex">
-            <span><i class="fas fa-clock-o p-2"></i></span>
+            <span><i class="fa fa-clock-o p-2"></i></span>
             <p class="p-1 ml-1">10 mins</p>
           </div>
           <p>OrderByClientUsername</p>
@@ -100,10 +109,12 @@
       </div>
 
       <div class="col-md-4 col-sm-12 my-3">
-        <img class="img-fluid" src="images/cake.png" alt="cake">
+        <div class="text-center">
+          <img class="img-fluid" src="images/cake.png" alt="cake">
+        </div>
         <div class="d-block m-2">
           <div class="d-flex">
-            <span><i class="fas fa-clock-o p-2"></i></span>
+            <span><i class="fa fa-clock-o p-2"></i></span>
             <p class="p-1 ml-1">10 mins</p>
           </div>
           <p>OrderByClientUsername</p>
@@ -139,15 +150,13 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+  <script src="my_js/jquery-3.4.1.slim.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  <script src="bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="my_js/index.js"></script>
 </body>
 
 </html>
