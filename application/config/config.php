@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 |
 */
-$config['base_url'] = 'http://localhost/chef/';
+$config['base_url'] = 'http://localhost/root folder name/';
 
 /*
 |--------------------------------------------------------------------------
