@@ -17,6 +17,7 @@
 
 
     <body>
+
         <!-- NAV SECTION -->
         <nav class="navbar navbar-expand-lg navbar-custom-2 fixed-top">
             <div class="container" style="padding-left:0px;padding-right:0px;flex-wrap:nowrap;">
@@ -52,7 +53,6 @@
 
 
 
-
 		<!-- MAIN SECTION -->
 		<div class="container-fluid chefCo-container">
 			<!-- PAGINATION SECTION -->
@@ -79,111 +79,142 @@
 			</div>
 			<!-- END OF PAGINATION SECTION -->
 			
-				<!-- VIEW ORDER SECTION -->
-				<div class="row" style="margin-top: 60px; margin-bottom: 100px;">
-					<div class="container">
-						<div class="col-md-9"><h1 style="padding: 0px; margin: 0px;">Orders</h1></div>
-						<div class="row">
-							<div class="col-md-9">
-								<div class="container-fluid">
-									<div class="row headings x-headings">
-										<div class="col-lg-4">
-											<ul class="nav">
-												<li class="nav-item">
-													<span class="cart-row">Items</span>
-												</li>
-											</ul>
-										</div>
-										<div class="col-lg-3">
-											<ul class="nav">
-												<li class="nav-item">
-													<span class="cart-row">Description</span>
-												</li>
-											</ul>
-										</div>
-										<div class="col-lg-4 nav">
-											<form style="flex-wrap: nowrap;display: flex;">
-												<div class="form-check nav-item pr-3">
-													<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-													<label class="form-check-label cart-row" for="flexCheckDefault">Pending</label>
-												</div>
-												<div class="form-check neav-item pr-3">
-													<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-													<label class="form-check-label cart-row" for="flexCheckChecked">Processed</label>
-												</div>
-												<div class="form-check nav-item pr-3">
-													<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-													<label class="form-check-label cart-row" for="flexCheckDefault">Rejected</label>
-												</div>
-											</form>
+			<!-- VIEW ORDER SECTION -->
+			<div class="row" style="margin-top: 30px; margin-bottom: 70px;">
+				<div class="container">
+					<div class="col-md-9">
+						<h1 style="padding: 0px; margin: 0px;">Orders</h1>
+					</div>
+					<div class="row">
+						<div class="col-md-9">
+							<div class="container-fluid">
+								<div class="row headings x-headings">
+									<div class="col-lg-4">
+										<ul class="nav">
+											<li class="nav-item">
+												<span class="cart-row">Items</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-3">
+										<ul class="nav">
+											<li class="nav-item">
+												<span class="cart-row">Description</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-4 nav">
+										<form style="flex-wrap: nowrap;display: flex;">
+											<div class="form-check nav-item pr-3">
+												<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+												<label class="form-check-label cart-row" for="flexCheckDefault">Pending</label>
+											</div>
+											<div class="form-check neav-item pr-3">
+												<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+												<label class="form-check-label cart-row" for="flexCheckChecked">Processed</label>
+											</div>
+											<div class="form-check nav-item pr-3">
+												<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+												<label class="form-check-label cart-row" for="flexCheckDefault">Rejected</label>
+											</div>
+										</form>
 
+									</div>
+								</div>
+
+								<!-- FIRST QUANTITY IN THE CART -->
+								<div class="container mt-3">
+									<div class="row mb-5">
+										<div class="col-md-5 modal-img">
+											<img src="images/fruitcake.jpeg" class="rounded-0 w-100 h-100"/>
+										</div>
+										<div class="col-md-7">          
+											<a class="modal-item-h2 mb-0" style="color:#022b69;" href="order-details.html">Orders by <span>Shola</span></a>
+									
+											<div class="d-flex">
+												<span><i class="fa fa-clock-o" style="padding: 8px 8px 8px 0px;"></i></span>
+												<p class="p-1 m-0">25 mins</p>
+											</div>
+											<div class="descriptions">
+												<!-- <p>Fruit cake; a fruity, delicious and extremely tasty cake recipe that keeps you going for more . What more can you ask for in a cake.</p> -->
+												<p>Shola ordered for two fruitcakes. Your order will be ready within 25 mins.</p>
+											</div> 
+											<h2 class="modal-item-total"><span class="Total-price">$40</span></h2>
+											<div class="row">
+												<div class="col-md-3">
+													<button class="btn custom-btn buy-btn btn-block">Accept</button>
+												</div>
+												<div class="col-md-3">
+													<button class="btn btn-danger btn-block">Reject</button>
+												</div>
+											</div>
 										</div>
 									</div>
-									<!-- FIRST QUANTITY IN THE CART -->
-									<div class="container mt-3">
-										<div class="row mb-5">
-											<div class="col-md-5 modal-img">
-												<img src="images/fruitcake.jpeg" class="rounded-0"/>
+									<!-- END OF FIRST QUANTITY IN THE CART -->
+
+									<!-- SECOND QUANTITY IN THE CART -->
+									<div class="row mt-5">
+										<div class="col-md-5 modal-img">
+											<img src="images/pizza.jpeg" class="rounded-0 w-100 h-100"/>
+										</div>
+										<div class="col-md-7">  
+											<a class="modal-item-h2 mb-0" style="color:#022b69;" href="order-details.html">Orders by <span>Lara</span></a>        
+											<div class="d-flex">
+												<span><i class="fa fa-clock-o" style="padding: 8px 8px 8px 0px;"></i></span>
+												<p class="p-1 m-0">30 mins</p>
 											</div>
-											<div class="col-md-7">          
-												<a class="modal-item-h2 mb-0" style="color:#022b69;" href="order-details.html">Orders by <span>Shola</span></a>
-										
-												<div class="d-flex">
-													<span><i class="fa fa-clock-o" style="padding: 8px 8px 8px 0px;"></i></span>
-													<p class="p-1 m-0">10 mins</p>
+											<div class="descriptions">
+												<!-- <p>The BBQ Chicken Pizza is loaded with cheese, barbecue sauce, pineapple and more. This pizza is a family favorite!</p> -->
+												<p>Bukayo ordered for a chicken pineapple pizza. Your order will be ready within 20 mins.</p>
+											</div> 
+											<h2 class="modal-item-total"><span class="Total-price">$10</span></h2>
+											<div class="row">
+												<div class="col-md-3">
+													<button class="btn custom-btn buy-btn btn-block">Accept</button>
 												</div>
-												<div class="descriptions">
-													<p>
-														1 cake, 5 drink, 50 bread, 6 chicken. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et magna ac erat malesuada pellentesque et vitae dui. Aenean vitae eros gravida, dignissim enim vitae, ultricies orci.
-													</p>
-												</div> 
-												<h2 class="modal-item-total"><span class="Total-price">$40</span></h2>
-												<div class="row">
-													<div class="col-md-3 m-1">
-														<button class="btn custom-btn buy-btn btn-block">Accept</button>
-													</div>
-													<div class="col-md-3 m-1">
-														<button class="btn btn-danger btn-block">Reject</button>
-													</div>
+												<div class="col-md-3">
+													<button class="btn btn-danger btn-block">Reject</button>
 												</div>
 											</div>
 										</div>
-										<!-- END OF FIRST QUANTITY IN THE CART -->
-										<!-- SECOND QUANTITY IN THE CART -->
-										<div class="row mt-5">
-											<div class="col-md-5 modal-img">
-												<img src="images/fruitcake.jpeg" class="rounded-0"/>
-											</div>
-											<div class="col-md-7">  
-												<a class="modal-item-h2 mb-0" style="color:#022b69;" href="order-details.html">Orders by <span>Lara</span></a>        
-												<div class="d-flex">
-													<span><i class="fa fa-clock-o" style="padding: 8px 8px 8px 0px;"></i></span>
-													<p class="p-1 m-0">20 mins</p>
-												</div>
-												<div class="descriptions">
-													<p>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et magna ac erat malesuada pellentesque et vitae dui. Aenean vitae eros gravida, dignissim enim vitae, ultricies orci.
-													</p>
-												</div> 
-												<h2 class="modal-item-total"><span class="Total-price">$29</span></h2>
-												<div class="row">
-													<div class="col-md-3 m-1">
-														<button class="btn custom-btn buy-btn btn-block">Accept</button>
-													</div>
-													<div class="col-md-3 m-1">
-														<button class="btn btn-danger btn-block">Reject</button>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- END OF SECOND QUANTITY IN THE CART -->
 									</div>
+									<!-- END OF SECOND QUANTITY IN THE CART -->
+
+									<!-- THIRD QUANTITY IN THE CART -->
+									<div class="row mt-5">
+										<div class="col-md-5 modal-img">
+											<img src="images/semo.jpeg" class="rounded-0 w-100 h-100"/>
+										</div>
+										<div class="col-md-7">  
+											<a class="modal-item-h2 mb-0" style="color:#022b69;" href="order-details.html">Orders by <span>Lara</span></a>        
+											<div class="d-flex">
+												<span><i class="fa fa-clock-o" style="padding: 8px 8px 8px 0px;"></i></span>
+												<p class="p-1 m-0">5 mins</p>
+											</div>
+											<div class="descriptions">
+												<!-- <p>Semolina is a coarse flour made from durum wheat, a hard type of wheat.</p> -->
+												<p>Samson ordered for a two plates of semolina and vegetables. Your order will be ready within 5 mins.</p>
+											</div> 
+											<h2 class="modal-item-total"><span class="Total-price">$5</span></h2>
+											<div class="row">
+												<div class="col-md-3">
+													<button class="btn custom-btn buy-btn btn-block">Accept</button>
+												</div>
+												<div class="col-md-3">
+													<button class="btn btn-danger btn-block">Reject</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- END OF THIRD QUANTITY IN THE CART -->
+
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- END OF VIEW ORDER SECTION -->
+			</div>
+			<!-- END OF VIEW ORDER SECTION -->
 
 
 
